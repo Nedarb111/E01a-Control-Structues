@@ -1,84 +1,136 @@
 Open main1.py. Before running it, what do you expect this program to do? 
 
-Now right click on the window and select “Run Python File in Terminal”. Click in the bottom panel, and answer the question. Describe what happened. 
+-I think when i typed in a certain answer, it will respond somehow with the second thing that's written in the code
+
+Now right click on the main1.py window and select “Run Python File in Terminal”. Click in the bottom panel, and answer the question. Describe what happened. 
+
+-It typed out "S C:\Users\bbmarksb\Desktop\E01a-Control-Structues"
 
 What do you think the program did with what you typed?
 
-
+-It probably stored what I said somewhere in the system.
 
 Open main2.py. Before running it, describe how this is different than main1.py. 
 
+-This time there's a line of text that says the color = the input
+
 What do you think the color = input() will do? 
+
+-I don't know actually, but I would guess it will do something with the color I plugged in earlier??
 
 Run the program in the terminal and answer the question. Did the program do what you expected?
 
-
+-It's diplaying my input. So it's telling me what I typed in basically.
 
 Open main3.py. Before running it, describe how this is different than main2.py. 
 
+-This time there's something that says "sorry try again" and the color I selected has already been placed in the code. There are also "if" and "else" commands. 
+
 What is happening on lines 11–14? 
+
+-It's showing the color red.
 
 Why are lines 12 and 14 indented? 
 
+-They are meant to respond based on the other answers. the "if" result is if you type in your color and if it's anything else then it will give you the other prompt
+
 Run the program and answer the question. What happens if you don’t capitalize Red? 
+
+-It tells me "sorry try again"
 
 What does this tell you about "color"?
 
+It needs to be typed in correctly because of the "if" statement.
 
+Open main4.py. Before running it, describe how this is different than main3.py. 
 
-Open main4.py. Before running it, describe how this is different than main2.py. 
+-This time there's an "or" statement that also has the lowercase version of the word.
 
 What problem is this trying to solve? 
 
+-Now you can type in red or Red and get the same result.
+
 Run the program and answer the question. What happens if you use some other capitalization scheme (i.e., “RED” or “reD“)?
 
-
+-It tells me "Sorry try again"
 
 Open main5.py. What do you expect line 11 to do? 
 
+-there's a thing that says "color.lower" which I'm guessing will allow any conbination of lower or uppercase letters.
+
 What problem is it trying to solve? 
+
+-Now you can probably type red capitlized in any way you want. 
 
 Run the program and answer the question. What happens if you add spaces before or after the word (i.e., “  RED  “ or “ red”)?
 
-
+-Now it tells me I'm correct!
 
 Open main6.py. How is line 11 different than main5.py? 
 
+-Now there's an extra thing that says "strip" in the code
+
 What would you guess .strip() is doing? 
+
+-I would guess it allows it to be typed in any order. The letters are probably being read a certain way.
 
 Run the program and answer the question. Is there another way of writing “red” that will break this logic?
 
-
+-I don't think there is.
 
 Open main7.py. Before running this program, how do you expect this to be different than main6.py? 
 
+-Now it'll allow you to answer pink and it will say "close!" instead of what all other colors would be. 
+
 What is the purpose of line 11? 
+
+-It probably makes the same things we've explored apply to the "pink" answer too.
 
 Run the program and answer the question.
 
-
+-Yup! It did what I thought, now the same code is applying to answers "pink" and "red", but they still generate different responces.
 
 Open main8.py. What is the purpose of line 11? 
 
+-It'll stop all the other code from happening if it's not red and allows it to continue asking you different colors if you guess wrong.
+
 Why are lines 12–19 indented? 
+
+-So that a certain part of the code will only play out and loop of a certain thing is typed in.
 
 Run the program. What would happen if line 12 were moved before line 11 (and no longer indented)? 
 
+-It would start reasking you the question over and over right?
+
 Make that change and run the program again. To end any Python program, you can type ctrl-c.
 
-
+-When I typed in pink it told me "close" over and over and over again
 
 Open main9.py. What is happening on line 12? 
 
+-I think it's setting it up to count the number of times you get it wrong. 
+
 What is the purpose of “count”? 
+
+-it's keeping track of the number of incorrect inputs
 
 What is happening on line 22? 
 
+-It's printing out the number of tries it took for you to figure it out. 
+
 Run the program.
 
+-Yup! I think it did what I thought!
 
 *Extra credit:* open main10.py. Add a comment to each line describing what it is doing (a comment follows a pound sign [#]). 
 
+-I did it!!
+
 Commit your changes and push them back to the repository. 
 
+Sounds good...if I can find out how to do that...I think I'll ask you how lol.
+
 Did you do the extra credit?
+
+
+-Yup!!
